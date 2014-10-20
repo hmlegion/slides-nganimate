@@ -4,19 +4,19 @@
 	    {
 	    	"filename": "about.html",
 	        "attr": {
-	            "data-background": "/img/troy.jpg"
+	            "data-background": "img/troy.jpg"
 	        }
 	    },
 	    "about-notes.html",
 	    {
 	    	"filename": "about-guru.html",
 	        "attr": {
-	            "data-background": "/img/coyote.png"
+	            "data-background": "img/coyote.png"
 	        }
 	    },
 	    {
 	    	"attr": {
-	    	    "data-background": "/img/cult.jpg"
+	    	    "data-background": "img/cult.jpg"
 	    	}
 	    }
 	],
@@ -38,19 +38,19 @@
     	"keyframes3.html"
     ],
     [
-    	"ngAnimate.html",
-    	"ngAnimate2.html",
-    	"ngAnimate3.html",
-    	"ngAnimate4.html",
-    	"ngAnimate5.html",
-    	"ngAnimate6.html"
+    	"nganimate.html",
+    	"nganimate2.html",
+    	"nganimate3.html",
+    	"nganimate4.html",
+    	"nganimate5.html",
+    	"nganimate6.html"
     ],
     [
     	"enter.html",
     	"enter2.html",
     	{
     		"attr": {
-    		    "data-background": "/img/wizard2.jpg"
+    		    "data-background": "img/wizard2.jpg"
     		}
     	},
     	"enter3.html",
@@ -79,7 +79,7 @@
     ],
     {
 		"attr": {
-		    "data-background": "/img/closing.jpg"
+		    "data-background": "img/closing.jpg"
 		}
 	},
 	"z-links.html",
