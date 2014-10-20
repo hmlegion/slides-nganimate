@@ -1,0 +1,87 @@
+[
+    "index.md",
+    [
+	    {
+	    	"filename": "about.html",
+	        "attr": {
+	            "data-background": "/img/troy.jpg"
+	        }
+	    },
+	    "about-notes.html",
+	    {
+	    	"filename": "about-guru.html",
+	        "attr": {
+	            "data-background": "/img/coyote.png"
+	        }
+	    },
+	    {
+	    	"attr": {
+	    	    "data-background": "/img/cult.jpg"
+	    	}
+	    }
+	],
+    [
+    	"animation-overview.html",
+    	"animation-overview2.html",
+    	"animation-overview3.html"
+    ],
+    [
+    	"transitions.html",
+    	"transitions2.html",
+    	"transitions3.html",
+    	"transitions4.html",
+    	"transitions5.html"
+    ],
+    [
+    	"keyframes.html",
+    	"keyframes2.html",
+    	"keyframes3.html"
+    ],
+    [
+    	"ngAnimate.html",
+    	"ngAnimate2.html",
+    	"ngAnimate3.html",
+    	"ngAnimate4.html",
+    	"ngAnimate5.html",
+    	"ngAnimate6.html"
+    ],
+    [
+    	"enter.html",
+    	"enter2.html",
+    	{
+    		"attr": {
+    		    "data-background": "/img/wizard2.jpg"
+    		}
+    	},
+    	"enter3.html",
+    	"enter4.html",
+    	"enter5.html",
+    	"enter6.html",
+    	"enter7.html",
+    	"enter8.html"
+    ],
+    [
+    	"enterKeyframe.html"
+    ],
+    [
+    	"add.html",
+    	"add2.html",
+    	"add2b.html",
+    	"add3.html",
+    	"add4.html",
+    	"add5.html"
+    ],
+    [
+    	"show.html",
+    	"show2.html",
+    	"show3.html",
+    	"show4.html"
+    ],
+    {
+		"attr": {
+		    "data-background": "/img/closing.jpg"
+		}
+	},
+	"z-links.html",
+	"z.html"
+]

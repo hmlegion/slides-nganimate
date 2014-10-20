@@ -1,0 +1,20 @@
+<h2>ngClass: with keyframes</h2>
+<pre><code>
+<button ng-click="selected=!selected">Activate!</button>
+<div class="element" ng-class="selected:selected"></div>
+</code></pre>
+<pre><code>
+.element {
+    background: black;
+}
+.selected {
+    background: red;
+    &.selected-add {
+        animation: crazykeyframes 5s;
+    }
+    &.selected-remove {
+        animation: crazykeyframes 2s;
+        animation-direction: reverse;
+    }
+}
+</code></pre>

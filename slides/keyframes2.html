@@ -1,0 +1,15 @@
+<h2>Keyframe Animations</h2>
+<p>Instead of begin/end, we can do many things during the duration of the animation. There are two steps to creating these. Building the "keyframe-list" and then declaring the animation.</p>
+<pre class="code-left"><code>
+@keyframes keyframe-list-name {
+  0% {   transform: scale(1)
+                    rotate(0); }
+  50% {  transform: scale(1.25)
+                    rotate(30deg); }
+  100% { transform: scale(0)
+                    rotate(-180deg); }
+}
+.target.active {
+  animation: keyframe-list-name 5s;
+}
+</code></pre>

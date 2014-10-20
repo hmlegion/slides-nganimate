@@ -1,0 +1,19 @@
+<h2>ngClass: unSimple</h2>
+<pre><code>
+<button ng-click="selected=!selected">Activate!</button>
+<div class="element" ng-class="selected:selected"></div>
+</code></pre>
+<pre><code>
+.element {
+    background: black;
+}
+.selected {
+    background: red;
+    &.selected-add {
+        transition: 1s;
+    }
+    &.selected-remove {
+        transition: .2s;
+    }
+}
+</code></pre>

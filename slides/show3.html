@@ -1,0 +1,18 @@
+<h2>ng-hide: Simple</h2>
+<p>Since it starts with display none, simple transitions shouldn't work. But ngAnimate does some thinking for you if the transition is on the parent. </p>
+<pre><code>
+<div class="classname ng-hide" ng-hide="hideThis"></div>
+</code></pre>
+<pre><code>
+.ng-hide {
+    display:none!important;
+}
+.classname {
+    opacity: 1;
+    &.ng-hide {
+        opacity: 0;
+    }
+}
+</code></pre>
+
+

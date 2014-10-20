@@ -1,0 +1,20 @@
+<h2>Show/Hide: unSimple</h2>
+<pre><code>.classname {
+    transition: 1s;
+    &.ng-hide-remove {
+        transform: scale(.5);
+        opacity: 0;
+        &.ng-hide-remove-active {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+    &.ng-hide-add {
+        transform: scale(1);
+        opacity: 1;
+        &.ng-hide-add-active {
+            transform: scale(.5) transformX(100%);
+            opacity: 0;
+        }
+    }
+}</code></pre>

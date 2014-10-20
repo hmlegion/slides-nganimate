@@ -1,0 +1,14 @@
+<h2>ngClass: Simple</h2>
+<pre><code>
+<button ng-click="selected=!selected">Activate!</button>
+<div class="element" ng-class="selected:selected"></div>
+</code></pre>
+<pre><code>
+.element {
+    background: black;
+    transition: 1s;
+}
+.selected {
+    background: red;
+}
+</code></pre>

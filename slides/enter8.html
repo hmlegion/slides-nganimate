@@ -1,0 +1,21 @@
+<p>I prefer to SASS it.</p>
+<pre><code>
+<div class="animation-name ng-enter"></div>
+</code></pre>
+<pre><code class="css">
+.animation-name {
+    transition: 1s;
+    &.ng-enter {
+        opacity: 0;
+        &.ng-enter-active {
+            opacity: 1;
+        }
+    }
+    &.ng-leave {
+        opacity: 1;
+        &.ng-leave-active {
+            opacity: 0;
+        }
+    }
+}
+</code></pre>
